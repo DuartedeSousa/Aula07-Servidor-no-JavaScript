@@ -1,0 +1,11 @@
+//JavaScript (arquivo.js)
+//É uma linguagem dinâmica, ou seja, você não precisa declarar o tipo da variável
+
+let idade1 = 25;
+idade1 = "vinte e cinco" //isso é permitido 
+
+//TypeScript (arquivo.ts)
+//É uma linguagem criada pela MS que adicina a tipagem ao JS
+
+let idade: number = 25;
+idade = "vinte e cinco"; //ERRO
